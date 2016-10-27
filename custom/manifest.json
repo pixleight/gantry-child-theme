@@ -1,0 +1,18 @@
+{
+  "paths": {
+    "source": "custom/",
+    "dist": "custom/"
+  },
+  "dependencies": {
+    "custom.css": {
+      "files": [
+        "scss/custom.scss"
+      ],
+      "main": true
+    }
+  },
+  "config": {
+    "devUrl": "http://localhost:8888/",
+    "blogID": "1"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "pchc-gantry-child",
+  "version": "1.0.0",
+  "description": "Gantry Child Theme for PCHC",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Violette",
+  "license": "ISC",
+  "devDependencies": {
+    "asset-builder": "^1.1.0",
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "run-sequence": "^1.2.2"
+  }
+}
