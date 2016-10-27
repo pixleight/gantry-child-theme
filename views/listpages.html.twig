@@ -1,0 +1,10 @@
+{% set twigTemplate = 'listpages.html.twig' %}
+{% set scope = 'blog' %}
+
+  {# Begin Post Entries #}
+  <section class="entries">
+      {% for post in posts %}
+          {% include ['partials/content-' ~ scope ~ '.html.twig', (post.format) ? 'partials/content-' ~ post.format ~ '.html.twig' : '', 'partials/content.html.twig'] %}
+      {% endfor %}
+  </section>
+  {# End Post Entries #}
