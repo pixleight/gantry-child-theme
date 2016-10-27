@@ -1,0 +1,16 @@
+# Theme customization
+# Don't put generated files in repository
+/custom/config
+/custom/css-compiled
+custom/blog*/*
+!custom/blog*/scss/
+
+# NPM Files
+node_modules/
+npm-debug.log
+
+bower_components/
+
+# System files
+.DS_Store
+Thumbs.db
