@@ -12,7 +12,6 @@
     }
   },
   "config": {
-    "devUrl": "http://localhost:8888/",
-    "blogID": "1"
+    "devUrl": "http://localhost:8888/"
   }
 }
