@@ -1,0 +1,41 @@
+$ksc-blue:  #21476C;
+$ksc-red:   #BD295A;
+
+.g-logo {
+  svg {
+    fill: #000;
+
+    #KS-Logo-Letters-Top path {
+      fill: $ksc-red;
+
+      .home & {
+        @media only all and (min-width: 48rem) {
+          fill: #FFF;
+        }
+      }
+    }
+
+    .home & {
+      height: 3rem;
+      margin: -2rem auto 2rem;
+
+      @media only all and (min-width: 48rem) {
+        fill: #FFF;
+        height: 5rem;
+        margin: auto;
+
+        #KS-Logo-Letters-Outline {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+#g-navigation{
+    .g-social {
+      @media only all and (max-width: 47.938rem) {
+        text-align: right;
+      }
+    }
+}
