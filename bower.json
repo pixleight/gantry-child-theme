@@ -1,10 +1,10 @@
 {
-  "name": "pchc-gantry-child",
+  "name": "ksc2017",
   "version": "1.0.0",
   "authors": [
     "Chris Violette <cvioletterun@gmail.com>"
   ],
-  "description": "Gantry Child Theme for PCHC",
+  "description": "Gantry Child Theme for Katahdin Shadows Campground",
   "license": "MIT",
   "ignore": [
     "**/.*",

@@ -1,7 +1,7 @@
 {
-  "name": "pchc-gantry-child",
+  "name": "ksc2017",
   "version": "1.0.0",
-  "description": "Gantry Child Theme for PCHC",
+  "description": "Gantry Child Theme for Katahdin Shadows Campground",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

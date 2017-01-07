@@ -1,4 +1,4 @@
-# PCHC Gantry Child Themes
+# Gantry Child Themes
 
 Wordpress child theme based on the [Gantry Framework](http://www.gantry-framework.org/).
 
