@@ -7,6 +7,7 @@
 
 $ksc_includes = [
   'lib/custom-posts.php',     // Declare custom posts
+  'lib/custom-queries.php',   // Alter the main query
   'lib/config.php',           // Configuration
 ];
 

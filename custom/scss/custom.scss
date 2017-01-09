@@ -1,3 +1,5 @@
+@import "dependencies";
+
 $ksc-blue:  #21476C;
 $ksc-red:   #BD295A;
 
@@ -107,11 +109,29 @@ h1, h2, h3, h4, h5 {
             line-height: 1;
             margin-top: 0;
           }
-          p {
+          .card-text {
             font-size: 1.1em;
             line-height: 1.5;
             a {
               font-weight: 700;
+              .fa {
+                width: auto;
+                height: auto;
+                font-size: 1em;
+                line-height: inherit;
+                margin: 0;
+                border: none;
+                color: inherit;
+                transform: translateX(0);
+                transition: all 0.2s ease-out;
+              }
+              &:hover {
+                .fa {
+                  color: $ksc-red;
+                  background: none;
+                  transform: translateX(0.25em);
+                }
+              }
             }
           }
         }
@@ -173,5 +193,75 @@ h1, h2, h3, h4, h5 {
         color: #fff;
       }
     }
+  }
+}
+
+
+.post-type-archive-cabin, .tax-cabin_types {
+  #g-page-surround {
+    .entries {
+      display: flex;
+      flex-flow: row wrap;
+      .tease-cabin {
+        min-width: 0;
+  	    min-height: 0;
+        @include flex(0 50 * 1%);
+        //width: 50 * 1%;
+        margin: 0.625rem 0;
+        padding: 0.938rem;
+        @include breakpoint(mobile-only){
+          @include flex(0 100%);
+        }
+
+        h2 {
+          margin-bottom: 0.5rem;
+        }
+
+        .entry-meta {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.cabin-type-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+
+  li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    a {
+      display: block;
+      font-size: 0.8em;
+      padding: 0.5em;
+      background: $ksc-blue;
+      border-radius: 3px;
+      line-height: 1;
+      color: #FFF;
+      letter-spacing: 0.03em;
+      transition: all 0.2s ease-out;
+
+      &:hover {
+        background: $ksc-red;
+      }
+    }
+  }
+}
+
+.page-header {
+  .cabin-type-term {
+    display: inline-block;
+    font-size: 0.9em;
+    padding: 0.5em 2em;
+    background: $ksc-red;
+    letter-spacing: 0.03em;
+    border-radius: 3px;
+    line-height: 1;
+    color: #FFF;
+    position: relative;
+    top: -2rem;
   }
 }
