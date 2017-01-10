@@ -1,0 +1,8 @@
+enabled: '1'
+menu: main-menu
+base: /
+startLevel: '1'
+maxLevels: '0'
+renderTitles: '0'
+hoverExpand: '0'
+mobileTarget: '0'

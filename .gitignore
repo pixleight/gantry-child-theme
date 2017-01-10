@@ -1,6 +1,5 @@
 # Theme customization
 # Don't put generated files in repository
-/custom/config
 /custom/css-compiled
 custom/blog*/*
 !custom/blog*/scss/

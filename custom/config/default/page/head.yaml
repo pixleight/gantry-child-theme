@@ -1,0 +1,18 @@
+meta: {  }
+head_bottom: ''
+atoms:
+  -
+    id: lightcase-8636
+    type: lightcase
+    title: Lightcase
+    attributes:
+      enabled: '1'
+  -
+    id: assets-3405
+    type: assets
+    title: 'Custom CSS / JS'
+    attributes:
+      enabled: '1'
+      css:
+        - { location: '', inline: '@import url(''https://fonts.googleapis.com/css?family=Alegreya+Sans:900|Lato:400,700'');', extra: {  }, priority: '0', name: 'Google Fonts' }
+      javascript: {  }

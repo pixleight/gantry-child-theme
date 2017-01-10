@@ -1,0 +1,141 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1483801905
+layout:
+  /navigation/:
+    -
+      - 'menu-6409 75'
+      - 'social-3171 25'
+    -
+      - logo-9608
+  /header/:
+    -
+      - owlcarousel-2455
+  /intro/: {  }
+  /features/: {  }
+  /utility/: {  }
+  /above/: {  }
+  /testimonials/: {  }
+  /expanded/: {  }
+  /container-main/:
+    -
+      -
+        'mainbar 75':
+          -
+            - custom-5807
+          -
+            - custom-1460
+      -
+        'sidebar 25': {  }
+  footer: {  }
+  offcanvas: {  }
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  intro:
+    type: section
+    attributes:
+      boxed: ''
+  features:
+    type: section
+    attributes:
+      boxed: ''
+  utility:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  above:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+  expanded:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  footer:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+  offcanvas:
+    inherit:
+      outline: default
+      include:
+        - attributes
+        - children
+content:
+  menu-6409:
+    block:
+      variations: 'align-left nomarginall nopaddingall'
+  social-3171:
+    block:
+      class: g-social-header
+      variations: 'align-right nomarginall nopaddingall'
+  logo-9608:
+    title: 'Logo / Image'
+    block:
+      variations: 'center nomarginall nopaddingall'
+  owlcarousel-2455:
+    title: 'Owl Carousel'
+    attributes:
+      items:
+        -
+          image: 'gantry-media://header/hero-plane.jpg'
+          title: 'Welcome to Katahdin Shadows Campground'
+          desc: 'Come visit a truly unique family-owned and operated campground located in the shadows of Katahdin and at the gateway to the Great North Maine Woods.'
+          link: ''
+          linktext: ''
+          buttonclass: ''
+          name: 'Item 1'
+        -
+          image: 'gantry-media://header/hero-slide.jpg'
+          title: 'Helium is Gantry powered!'
+          desc: 'Helium is based on the powerful Gantry framework.'
+          link: 'http://gantry.org/downloads'
+          linktext: 'Download Now'
+          buttonclass: button-outline
+          name: 'Item 2'
+        -
+          image: 'gantry-media://header/hero-kww.jpg'
+          title: 'Visit the North Maine Woods'
+          desc: 'Katahdin Woods and Waters National Monument, Baxter State Park, and more.'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: KWW
+  custom-5807:
+    title: Intro
+    attributes:
+      html: "<div class=\"fp-intro\">\n    <h2 class=\"g-title\">Welcome to Katahdin Shadows Campground</h2>\n    <p>Come visit a truly unique family-owned and operated campground located in the shadows of Katahdin and at the gateway to the Great North Maine Woods. Whether you sleep in a tent, bring your own camper, or stay in one of our cabins, we’re sure that your stay at Katahdin Shadows Campground will be one to remember.</p>\n</div>"
+    block:
+      variations: center
+  custom-1460:
+    title: Features
+    attributes:
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-tree\"></i></a>\n                    <h4 class=\"card-title\">Gateway to the<br>North Maine Woods</h4>\n                    <p class=\"card-text\">Visit Katahdin Woods and Waters National Monument, Baxter State Park, and much more.<br><a>Learn More <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-calendar\"></i></a>\n                    <h4 class=\"card-title\">A Summer of Fun<br>for All Ages</h4>\n                    <p class=\"card-text\">Whether you’re a kid or just young at heart, Katahdin Shadows Campground has family events all summer long just for you.<br><a>Event Calendar <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-map\"></i></a>\n                    <h4 class=\"card-title\">Plan Your<br>Next Visit</h4>\n                    <p class=\"card-text\">We're easy to find but it's hard to want to leave.<br><a>Getting Here <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+    block:
+      variations: center

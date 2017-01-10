@@ -1,0 +1,11 @@
+enabled: '1'
+date:
+  start: '2001'
+  end: now
+owner: 'Katahdin Shadows Campground'
+link: ''
+target: _blank
+additional:
+  text: 'Developed by <a href="http://www.pixleight.com/">Chris Violette</a>'
+css:
+  class: ''

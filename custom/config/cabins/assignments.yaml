@@ -1,0 +1,33 @@
+context: {  }
+menu: {  }
+post:
+  cabin:
+    is_singular: true
+    is_archive: true
+  cabin-terms:
+    cabin_types: true
+    cabin_types-10: true
+    cabin_types-11: true
+    cabin_types-12: true
+    cabin_types-13: true
+    cabin_types-14: true
+    cabin_types-15: true
+    cabin_types-16: true
+taxonomy:
+  cabin_types:
+    10: true
+    11: true
+    12: true
+    13: true
+    14: true
+    15: true
+    16: true
+archive:
+  cabin_types:
+    10: true
+    11: true
+    12: true
+    13: true
+    14: true
+    15: true
+    16: true

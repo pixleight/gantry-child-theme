@@ -1,0 +1,65 @@
+name: cabins
+timestamp: 1484008825
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: default
+  timestamp: 1483801905
+positions:
+  sidebar: Sidebar
+sections:
+  navigation: Navigation
+  intro: Intro
+  features: Features
+  utility: Utility
+  above: Above
+  testimonials: Testimonials
+  expanded: Expanded
+  header: Header
+  aside: Aside
+  sidebar: Sidebar
+  mainbar: Mainbar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-5457: 'Logo / Image'
+    logo-5696: 'Logo / Image'
+  menu:
+    menu-9405: Menu
+  social:
+    social-4670: Social
+  content:
+    system-content-5486: 'Page Content'
+  position:
+    position-position-9078: Sidebar
+  copyright:
+    copyright-3855: Copyright
+  totop:
+    totop-1467: 'To Top'
+  mobile-menu:
+    mobile-menu-7205: Mobile-menu
+inherit:
+  default:
+    navigation: navigation
+    header: header
+    intro: intro
+    features: features
+    utility: utility
+    above: above
+    testimonials: testimonials
+    expanded: expanded
+    aside: aside
+    mainbar: mainbar
+    sidebar: sidebar
+    footer: footer
+    offcanvas: offcanvas
+    logo-5457: logo-9608
+    menu-9405: menu-6409
+    social-4670: social-3171
+    system-content-5486: system-content-1587
+    position-position-9078: position-position-3949
+    logo-5696: logo-9571
+    copyright-3855: copyright-1736
+    totop-1467: totop-8670
+    mobile-menu-7205: mobile-menu-5697
