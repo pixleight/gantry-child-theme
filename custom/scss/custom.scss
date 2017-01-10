@@ -10,12 +10,33 @@ h1, h2, h3, h4, h5 {
   text-shadow: 0 1px 1px rgba(#000, 0.5);
 }
 
+#g-navigation {
+  .g-content {
+    @include breakpoint(mobile-only) {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+
+@include breakpoint(mobile-only) {
+  .g-social-header{
+    margin-top: -4rem;
+  }
+}
+
 .g-logo {
   svg {
     fill: #000;
     #g-footer & {
       fill: #FFF;
       height: 3rem;
+      margin: auto;
+    }
+
+    @include breakpoint(mobile-only) {
+      height: 3rem;
+      margin: 2rem auto;
     }
 
     #KS-Logo-Letters-Top path {
@@ -32,7 +53,7 @@ h1, h2, h3, h4, h5 {
       height: 3rem;
       margin: -2rem auto 2rem;
 
-      @media only all and (min-width: 48rem) {
+      @include breakpoint(no-mobile) {
         fill: #FFF;
         height: 5rem;
         margin: auto;
@@ -47,7 +68,7 @@ h1, h2, h3, h4, h5 {
 
 #g-navigation{
     .g-social {
-      @media only all and (max-width: 47.938rem) {
+      @include breakpoint(mobile-only) {
         text-align: right;
       }
     }
@@ -60,7 +81,7 @@ h1, h2, h3, h4, h5 {
         &:nth-child(odd), &:nth-child(even) {
           .g-owlcarousel-item-img {
             &:after {
-              opacity: 0.75;
+              opacity: 0.6;
             }
           }
         }
@@ -196,6 +217,21 @@ h1, h2, h3, h4, h5 {
   }
 }
 
+.entry {
+  p {
+    a {
+      $lighten: 60;
+      border-bottom: 2px solid lighten($ksc-blue, $lighten);
+      box-shadow: 0 2px 0 lighten($ksc-blue, $lighten);
+      transition: all 0.2s ease-out;
+      &:hover {
+        background: lighten($ksc-blue, $lighten);
+        color: $ksc-blue;
+        text-shadow: 0 1px 0 #FFF;
+      }
+    }
+  }
+}
 
 .post-type-archive-cabin, .tax-cabin_types {
   #g-page-surround {

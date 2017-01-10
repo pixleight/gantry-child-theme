@@ -1,6 +1,6 @@
 {% extends "partials/page.html.twig" %}
 {% set twigTemplate = 'single-cabin.html.twig' %}
-{% set scope = 'single-cabin' %}
+{% set scope = 'single' %}
 
 {% block content %}
 
@@ -8,7 +8,7 @@
         <div class="content-wrapper">
             <section class="entry">
 
-                {% include ['partials/content-' ~ scope ~ '.html.twig', 'partials/content.html.twig'] %}
+                {% include ['partials/content-' ~ scope ~ '-cabin.html.twig', 'partials/content.html.twig'] %}
 
             </section>
         </div> <!-- /content-wrapper -->
