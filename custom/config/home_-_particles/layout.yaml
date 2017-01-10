@@ -110,21 +110,21 @@ content:
           link: ''
           linktext: ''
           buttonclass: ''
-          name: 'Item 1'
+          name: Welcome
         -
           image: 'gantry-media://header/hero-slide.jpg'
-          title: 'Helium is Gantry powered!'
-          desc: 'Helium is based on the powerful Gantry framework.'
-          link: 'http://gantry.org/downloads'
-          linktext: 'Download Now'
+          title: 'A Summer of Fun'
+          desc: 'From Christmas to Halloween and everything in between, we have events all summer the whole family will enjoy.'
+          link: /events/
+          linktext: 'Event Calendar'
           buttonclass: button-outline
-          name: 'Item 2'
+          name: Summer
         -
           image: 'gantry-media://header/hero-kww.jpg'
           title: 'Visit the North Maine Woods'
           desc: 'Katahdin Woods and Waters National Monument, Baxter State Park, and more.'
-          link: ''
-          linktext: ''
+          link: /visit/
+          linktext: 'Start Your Adventure'
           buttonclass: button-outline
           name: KWW
   custom-5807:
@@ -136,6 +136,6 @@ content:
   custom-1460:
     title: Features
     attributes:
-      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-tree\"></i></a>\n                    <h4 class=\"card-title\">Gateway to the<br>North Maine Woods</h4>\n                    <p class=\"card-text\">Visit Katahdin Woods and Waters National Monument, Baxter State Park, and much more.<br><a>Learn More <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-calendar\"></i></a>\n                    <h4 class=\"card-title\">A Summer of Fun<br>for All Ages</h4>\n                    <p class=\"card-text\">Whether you’re a kid or just young at heart, Katahdin Shadows Campground has family events all summer long just for you.<br><a>Event Calendar <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a class=\"feature-icon-link\"><i class=\"fa fa-map\"></i></a>\n                    <h4 class=\"card-title\">Plan Your<br>Next Visit</h4>\n                    <p class=\"card-text\">We're easy to find but it's hard to want to leave.<br><a>Getting Here <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
+      html: "<div class=\"fp-features\">\n    <div class=\"g-grid\">\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a href=\"/visit/\" class=\"feature-icon-link\"><i class=\"fa fa-tree\"></i></a>\n                    <h4 class=\"card-title\">Gateway to the<br>North Maine Woods</h4>\n                    <p class=\"card-text\">Visit Katahdin Woods and Waters National Monument, Baxter State Park, and much more.<br><a href=\"/visit/\">Learn More <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a href=\"/events/\" class=\"feature-icon-link\"><i class=\"fa fa-calendar\"></i></a>\n                    <h4 class=\"card-title\">A Summer of Fun<br>for All Ages</h4>\n                    <p class=\"card-text\">Whether you’re a kid or just young at heart, Katahdin Shadows Campground has family events all summer long just for you.<br><a href=\"/events/\">Event Calendar <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n        <div class=\"g-block size-33-3\">\n            <div class=\"card\">\n                <div class=\"card-block\">\n                    <a href=\"/getting-here/\" class=\"feature-icon-link\"><i class=\"fa fa-map\"></i></a>\n                    <h4 class=\"card-title\">Plan Your<br>Next Visit</h4>\n                    <p class=\"card-text\">We're easy to find but it's hard to want to leave.<br><a href=\"/getting-here/\">Getting Here <i class=\"fa fa-arrow-right\"></i></a></p>\n                </div>\n            </div>\n        </div>\n    </div>\n</div>"
     block:
       variations: center

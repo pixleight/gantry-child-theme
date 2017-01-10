@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1484008825
+timestamp: 1484011688
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -41,8 +41,8 @@ particles:
 inherit:
   default:
     footer: footer
-    offcanvas: offcanvas
     logo-8966: logo-9571
     copyright-2517: copyright-1736
     totop-2308: totop-8670
+    offcanvas: offcanvas
     mobile-menu-7062: mobile-menu-5697
